@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="EASE3"
-run/main_scene="uid://bkwrxoh7482nc"
+run/main_scene="uid://dcmhpc5toe1xu"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Gamemanager="*uid://dovr1kanlrlx"
 
 [input]
 
